@@ -19,6 +19,9 @@
 		849FF76C1EE5936100D2D9F0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FF76B1EE5936100D2D9F0 /* TableViewCell.swift */; };
 		849FF76D1EE5936100D2D9F0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FF76B1EE5936100D2D9F0 /* TableViewCell.swift */; };
 		849FF76E1EE5936100D2D9F0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FF76B1EE5936100D2D9F0 /* TableViewCell.swift */; };
+		849FF7701EE59E5700D2D9F0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FF76F1EE59E5700D2D9F0 /* ContactViewController.swift */; };
+		849FF7711EE59E5700D2D9F0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FF76F1EE59E5700D2D9F0 /* ContactViewController.swift */; };
+		849FF7721EE59E5700D2D9F0 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FF76F1EE59E5700D2D9F0 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		849FF75B1EE5921400D2D9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849FF7671EE5928A00D2D9F0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		849FF76B1EE5936100D2D9F0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		849FF76F1EE59E5700D2D9F0 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				849FF7391EE5921400D2D9F0 /* AppDelegate.swift */,
 				849FF7671EE5928A00D2D9F0 /* TableViewController.swift */,
 				849FF76B1EE5936100D2D9F0 /* TableViewCell.swift */,
+				849FF76F1EE59E5700D2D9F0 /* ContactViewController.swift */,
 				849FF73D1EE5921400D2D9F0 /* Main.storyboard */,
 				849FF7401EE5921400D2D9F0 /* Assets.xcassets */,
 				849FF7421EE5921400D2D9F0 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849FF76C1EE5936100D2D9F0 /* TableViewCell.swift in Sources */,
+				849FF7701EE59E5700D2D9F0 /* ContactViewController.swift in Sources */,
 				849FF73A1EE5921400D2D9F0 /* AppDelegate.swift in Sources */,
 				849FF7681EE5928A00D2D9F0 /* TableViewController.swift in Sources */,
 			);
@@ -277,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849FF76D1EE5936100D2D9F0 /* TableViewCell.swift in Sources */,
+				849FF7711EE59E5700D2D9F0 /* ContactViewController.swift in Sources */,
 				849FF74F1EE5921400D2D9F0 /* Werkstuk1VerbeteringTests.swift in Sources */,
 				849FF7691EE5928A00D2D9F0 /* TableViewController.swift in Sources */,
 			);
@@ -287,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849FF76E1EE5936100D2D9F0 /* TableViewCell.swift in Sources */,
+				849FF7721EE59E5700D2D9F0 /* ContactViewController.swift in Sources */,
 				849FF75A1EE5921400D2D9F0 /* Werkstuk1VerbeteringUITests.swift in Sources */,
 				849FF76A1EE5928A00D2D9F0 /* TableViewController.swift in Sources */,
 			);
