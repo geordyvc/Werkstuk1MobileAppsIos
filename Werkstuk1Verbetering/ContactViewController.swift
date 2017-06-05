@@ -34,7 +34,7 @@ class ContactViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = "contact overview"
         voornaamLabel.text = voornamen[index.row]
         achternaamLabel.text = achternamen[index.row]
         annotation.title = voornamen[index.row]
@@ -42,7 +42,7 @@ class ContactViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         let coordinate = CLLocationCoordinate2D(latitude: lengtegraad[index.row], longitude: breedtegraad[index.row])
         annotation.coordinate = coordinate
         mapView.addAnnotation(annotation)
-        
+        photoView.image = photo
         
         // Do any additional setup after loading the view.
     }
